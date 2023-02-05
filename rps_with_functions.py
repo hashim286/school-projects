@@ -40,8 +40,7 @@ def main():
     print(f"You chose {user_print}")
     print(f"The computer chose {computer_print}")
 
-    print(determine_winner(user_choice, computer_choice))
-    
+    determine_winner(user_choice, computer_choice)
 
     loop_again = input("Do you want to play again? Type N to quit or press anything to continue: ").upper()
     if loop_again != "N":
